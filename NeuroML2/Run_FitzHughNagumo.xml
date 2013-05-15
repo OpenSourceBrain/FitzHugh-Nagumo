@@ -1,0 +1,36 @@
+<Lems>
+
+
+<!-- Specify which component to run -->
+<Target component="sim1"/>
+
+<!-- Include core NeuroML2 ComponentType definitions -->
+<Include file="Cells.xml"/>
+<Include file="Networks.xml"/>
+<Include file="Simulation.xml"/>
+
+<Include file="FitzHughNagumo.xml"/>
+
+<!-- parameter set for relaxation oscillator -->
+<FitzHughNagumoCell id="fn1" a="0.7" b="0.08" I="1.0" phi="0.08"
+    v0="0.0" w0="0.0"/>
+
+
+<network id="net1">
+    <population id="fn1pop" component="fn1" size="1"/>
+</network>
+
+
+<Simulation id="sim1" length="400s" step="0.05s" target="net1">
+
+    <Display id="d1" title="dynamical variable timeseries"
+        timeScale="1s" xmin="0" xmax="400" ymin="-3" ymax="3">
+        <Line id ="v(t)" quantity="fn1pop[0]/v" scale="1"
+            color="#000000" timeScale="1s"/>
+        <Line id ="w(t)" quantity="fn1pop[0]/w" scale="1"
+            color="#ff0000" timeScale="1s"/>
+    </Display>
+    
+</Simulation>
+
+</Lems>
