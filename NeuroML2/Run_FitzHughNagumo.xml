@@ -25,9 +25,9 @@
 
     <Display id="d1" title="dynamical variable timeseries"
         timeScale="1s" xmin="0" xmax="400" ymin="-3" ymax="3">
-        <Line id ="v(t)" quantity="fn1pop[0]/v" scale="1"
+        <Line id ="v" quantity="fn1pop[0]/v" scale="1"
             color="#000000" timeScale="1s"/>
-        <Line id ="w(t)" quantity="fn1pop[0]/w" scale="1"
+        <Line id ="w" quantity="fn1pop[0]/w" scale="1"
             color="#ff0000" timeScale="1s"/>
     </Display>
     

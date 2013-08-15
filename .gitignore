@@ -2,7 +2,7 @@
 *.png
 *.gv
 *.ode
-*_brian.py
+*_*.py
 *.mod
 x86_64
 *.dat
