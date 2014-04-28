@@ -1,0 +1,18 @@
+target: Run_FitzHughNagumo.xml
+engine: LEMS
+implements:
+  mep: ../fhn.mep
+  experiment: experiment 1, free run 
+  observables:
+    spike times:
+      file: 
+        path: ./fhn.dat
+        columns: [0,1]
+      spike detection: 
+        method: derivative
+      tolerance: 0.1
+
+  
+
+
+    
