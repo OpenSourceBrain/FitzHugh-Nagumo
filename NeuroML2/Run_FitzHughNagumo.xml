@@ -30,6 +30,11 @@
         <Line id ="w" quantity="fn1pop[0]/w" scale="1"
             color="#ff0000" timeScale="1s"/>
     </Display>
+
+    <OutputFile id="of0" fileName="./fhn.dat">
+      <OutputColumn id="v" quantity="fn1pop[0]/v"/>
+      <OutputColumn id="w" quantity="fn1pop[0]/w"/>
+    </OutputFile>
     
 </Simulation>
 
