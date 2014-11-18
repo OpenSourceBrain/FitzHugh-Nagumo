@@ -36,7 +36,7 @@
     <Parameter name="v0" dimension="none"/>
     <Parameter name="w0" dimension="none"/>
 
-    <Constant name="SEC" dimension="time" value="1s"/>
+    <Constant name="TS" dimension="time" value="1ms"/>
 
     <Exposure name="v" dimension="none"/>
     <Exposure name="w" dimension="none"/>
@@ -52,8 +52,8 @@
         <DerivedVariable name="F" dimension="none" exposure="F" value="v - v^3 / 3"
             description="F must be a cubic polynomial in v"/>
 
-        <TimeDerivative variable="v" value="(F - w + I) / SEC"/>
-        <TimeDerivative variable="w" value="phi * (v + a - b * w) / SEC"/>
+        <TimeDerivative variable="v" value="(F - w + I) / TS"/>
+        <TimeDerivative variable="w" value="phi * (v + a - b * w) / TS"/>
         
         <OnStart>
             <StateAssignment variable="v" value="v0"/>
