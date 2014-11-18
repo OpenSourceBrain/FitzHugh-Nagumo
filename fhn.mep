@@ -4,5 +4,4 @@ experiments:
   experiment 1, free run:
     expected:
       spike times: [2.2, 42.75, 82.2, 121.65, 161.05, 200.5, 239.9, 279.35,  318.8, 358.2, 397.65]
-    protocol: endogenous
 
