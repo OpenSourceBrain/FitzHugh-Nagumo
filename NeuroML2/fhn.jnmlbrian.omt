@@ -1,0 +1,19 @@
+target: Run_FitzHughNagumo.xml
+engine: jNeuroML_Brian
+mep: ../fhn.mep
+experiments: 
+  experiment 1, free run:
+    observables:
+      spike times:
+        file: 
+          path: ./fhn.dat
+          columns: [0,1]
+          scaling: [1000, 1]
+        spike detection: 
+          method: derivative
+        tolerance: 0.0228
+
+  
+
+
+    
