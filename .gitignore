@@ -1,3 +1,6 @@
+*dnsim.txt
+*.m
+*.log
 *.sbml
 *.png
 *.gv
