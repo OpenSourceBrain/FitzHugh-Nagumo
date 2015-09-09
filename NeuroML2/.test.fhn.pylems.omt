@@ -1,5 +1,5 @@
-target: Run_FitzHughNagumo.xml
-engine: jNeuroML
+target: LEMS_FitzHughNagumo.xml
+engine: PyLEMS_NeuroML2
 mep: ../fhn.mep
 experiments: 
   experiment 1, free run:
@@ -11,7 +11,7 @@ experiments:
           scaling: [1000, 1]
         spike detection: 
           method: derivative
-        tolerance: 0
+        tolerance: 0.004505
 
   
 
