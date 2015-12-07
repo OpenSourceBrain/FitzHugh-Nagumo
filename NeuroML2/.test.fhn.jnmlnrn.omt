@@ -1,7 +1,7 @@
 # Script for running automated tests on OSB using Travis-CI, see https://github.com/OpenSourceBrain/osb-model-validation
 
 target: LEMS_FitzHughNagumo.xml
-engine: jNeuroML_Brian
+engine: jNeuroML_NEURON
 mep: ../fhn.mep
 experiments: 
   experiment 1, free run:
@@ -13,7 +13,7 @@ experiments:
           scaling: [1000, 1]
         spike detection: 
           method: derivative
-        tolerance: 0.004505
+        tolerance: 0
 
   
 
