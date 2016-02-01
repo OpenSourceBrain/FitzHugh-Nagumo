@@ -14,7 +14,7 @@
 
 
 <network id="net1">
-    <population id="fn1pop" component="fn1" size="1"/>
+    <population id="fn1pop" component="FN" size="1"/>
 </network>
 
 

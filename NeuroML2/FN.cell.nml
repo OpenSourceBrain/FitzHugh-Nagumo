@@ -3,7 +3,7 @@
 
 
     <!-- parameter set for relaxation oscillator -->
-    <fitzHughNagumo1969Cell id="fn1" a="0.7" b="0.08" I="1.0" phi="0.08" V0="0.0" W0="0.0"/>
+    <fitzHughNagumo1969Cell id="FN" a="0.7" b="0.08" I="1.0" phi="0.08" V0="0.0" W0="0.0"/>
 
 
 </neuroml>
