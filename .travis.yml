@@ -1,5 +1,21 @@
+sudo: false
+
+addons:
+  apt:
+    packages:
+       # Requirements for Brian
+    - python-numpy 
+    - python-scipy 
+    - python-matplotlib 
+    - python-sympy
+    
 language: python
+
 python: 2.7
+
+virtualenv:
+    system_site_packages: true
+
 env:
     - OMV_ENGINE=jNeuroML
     - OMV_ENGINE=PyLEMS_NeuroML2
