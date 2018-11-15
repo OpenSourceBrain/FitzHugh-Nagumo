@@ -1,6 +1,5 @@
 <Lems>
 
-
 <!-- Specify which component to run -->
 <Target component="sim1"/>
 
@@ -9,13 +8,7 @@
 <Include file="Networks.xml"/>
 <Include file="Simulation.xml"/>
 
-
-<Include file="FN.cell.nml"/>
-
-
-<network id="net1">
-    <population id="fn1pop" component="FN" size="1"/>
-</network>
+<Include file="FN.net.nml"/>
 
 
 <Simulation id="sim1" length="400ms" step="0.01ms" target="net1">
