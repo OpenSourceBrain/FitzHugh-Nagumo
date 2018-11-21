@@ -10,5 +10,5 @@ OSB Model Validation: [![Build Status](https://travis-ci.org/OpenSourceBrain/Fit
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1493384.svg)](https://doi.org/10.5281/zenodo.1493384)
 
-The code in this repository is provided under the terms of the [software licence](LICENCE) included with it. If you use this model in your research, we respectfully ask you to cite the references outlined in the [CITATIONS](CITATIONS.md) file.
+The code in this repository is provided under the terms of the [software licence](LICENCE) included with it. If you use this model in your research, we respectfully ask you to cite the references outlined in the [CITATION](CITATION.md) file.
 
