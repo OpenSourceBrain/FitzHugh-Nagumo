@@ -13,8 +13,8 @@
 
 <Simulation id="sim1" length="400ms" step="0.01ms" target="net1">
 
-    <Display id="d1" title="dynamical variable timeseries"
-        timeScale="1ms" xmin="0" xmax="400" ymin="-3" ymax="3">
+    <Display id="d1" title="Dynamical variable timeseries - V and W"
+        timeScale="1ms" xmin="-40" xmax="440" ymin="-2.5" ymax="2.5">
         <Line id ="V" quantity="fn1pop[0]/V" scale="1"
             color="#000000" timeScale="1ms"/>
         <Line id ="W" quantity="fn1pop[0]/W" scale="1"
