@@ -13,7 +13,7 @@ experiments:
           scaling: [1000, 1]
         spike detection: 
           method: derivative
-        tolerance: 0.000234137204402
+        tolerance: 2.185696883946938e-16
 
   
 
