@@ -135,7 +135,7 @@ if __name__ == '__main__':
         
     else:
         
-        fixed = {'dt':0.01, 'duration':400}
+        fixed = {'dt':0.01, 'duration':400, 'V0':-1.2, 'W0':-0.5}
 
         quick=True
         quick = False
@@ -147,7 +147,7 @@ if __name__ == '__main__':
         
         #vary = {'number_per_cell':[i for i in xrange(0,250,10)]}
         #vary = {'stim_amp':['1pA','1.5pA','2pA']}
-        vary = {'I':['%s'%(i/10.) for i in xrange(-10,20,1)]}
+        vary = {'I':['%s'%(i/20.) for i in xrange(-10,40,1)]}
 
         type = 'FN'
 
@@ -169,7 +169,9 @@ if __name__ == '__main__':
         report = ps.run()
         ps.print_report()
 
-        #ps.plotLines('stim_amp','average_last_1percent',save_figure_to='average_last_1percent_%s.png'%type)
+        for rep in ['maximum','minimum','mean_spike_frequency']:
+            ps.plotLines('I',rep,save_figure_to='%s_%s.png'%(rep,type))
+        
         #ps.plotLines('I','mean_spike_frequency',save_figure_to='mean_spike_frequency_%s.png'%type)
         #ps.plotLines('dt','mean_spike_frequency',save_figure_to='mean_spike_frequency_%s.png'%type, logx=True)
         #ps.plotLines('number_per_cell','mean_spike_frequency',save_figure_to='poisson_mean_spike_frequency_%s.png'%type)
