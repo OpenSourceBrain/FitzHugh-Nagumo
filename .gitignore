@@ -10,3 +10,6 @@
 x86_64
 *.dat
 *~
+/NeuroML2/FNTest.net.nml
+/NeuroML2/report.SimFNTest.txt
+/NeuroML2/LEMS_SimFNTest.xml

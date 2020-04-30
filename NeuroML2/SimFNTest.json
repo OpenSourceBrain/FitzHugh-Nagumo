@@ -1,0 +1,29 @@
+{
+    "SimFNTest": {
+        "version": "NeuroMLlite v0.2.0", 
+        "network": "FNTest.json", 
+        "duration": 400.0, 
+        "dt": 0.01, 
+        "recordVariables": {
+            "W": {
+                "all": "*"
+            }, 
+            "V": {
+                "all": "*"
+            }
+        }, 
+        "plots2D": {
+            "VW": {
+                "y_axis": "fnPop[0]/W", 
+                "x_axis": "fnPop[0]/V"
+            }
+        }, 
+        "plots3D": {
+            "V-W-t": {
+                "y_axis": "fnPop[0]/V", 
+                "x_axis": "t", 
+                "z_axis": "fnPop[0]/W"
+            }
+        }
+    }
+}

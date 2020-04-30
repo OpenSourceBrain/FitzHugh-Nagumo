@@ -1,0 +1,41 @@
+{
+    "FNTest": {
+        "version": "NeuroMLlite v0.2.0", 
+        "parameters": {
+            "a": 0.7, 
+            "phi": 0.08, 
+            "b": 0.8, 
+            "I": 1.0, 
+            "N": 1, 
+            "V0": 0.0, 
+            "W0": 0.0
+        }, 
+        "notes": "Example FN", 
+        "cells": [
+            {
+                "fnCell": {
+                    "neuroml2_cell": "fitzHughNagumo1969Cell", 
+                    "parameters": {
+                        "a": "a", 
+                        "phi": "phi", 
+                        "b": "b", 
+                        "I": "I", 
+                        "V0": "V0", 
+                        "W0": "W0"
+                    }
+                }
+            }
+        ], 
+        "populations": [
+            {
+                "fnPop": {
+                    "size": "1", 
+                    "component": "fnCell", 
+                    "properties": {
+                        "color": ".7 0 0"
+                    }
+                }
+            }
+        ]
+    }
+}
