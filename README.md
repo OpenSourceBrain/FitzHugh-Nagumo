@@ -6,7 +6,7 @@ This version corresponds to the one described in FitzHugh R. [1969]: Mathematica
 
 See http://www.opensourcebrain.org/projects/fitzhugh-nagumo-fitzhugh-1969 for more details.
 
-OSB Model Validation: [![Build Status](https://travis-ci.org/OpenSourceBrain/FitzHugh-Nagumo.svg?branch=master)](https://travis-ci.org/OpenSourceBrain/FitzHugh-Nagumo)
+OSB Model Validation: [![Build Status](https://travis-ci.com/OpenSourceBrain/FitzHugh-Nagumo.svg?branch=master)](https://travis-ci.com/OpenSourceBrain/FitzHugh-Nagumo)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1493384.svg)](https://doi.org/10.5281/zenodo.1493384)
 
